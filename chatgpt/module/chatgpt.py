@@ -30,7 +30,7 @@ async def chatgpt(c: Client, m: Message):
         else None
     )
     if not randydev:
-       await m.reply(f"Kalo sehabis <code>/{m.command[0]} [question]</code> kasih deskripsi cok asui 😒.")
+       await m.reply(f"Kalo Sehabis <code>/{m.command[0]} </code> Kasih Deskripsi Cok Asui 😒\n\nBebas Tanya Apa Saja Asal Gak Bahas Agama, Ras, Suku Atau Tak Bal Ndasmu 😠.")
        return
     headers = {
         "Content-Type": "application/json",
