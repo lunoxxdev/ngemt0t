@@ -53,4 +53,4 @@ async def chatgpt(c: Client, m: Message):
         await asyncio.sleep(5)
         await c.send_message(m.chat.id, response["choices"][0]["text"], reply_to_message_id=m.id)
     except Exception:
-        await c.send_message(m.chat.id, "Yahh, sorry i can't get your answer.", reply_to_message_id=m.id)
+        await c.send_message(m.chat.id, "Yahh, Pertanyaanmu Sungguh Diluar Nurul ☹️", reply_to_message_id=m.id)
